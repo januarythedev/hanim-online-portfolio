@@ -1,0 +1,95 @@
+@media screen and (min-width:78.125rem){
+    nav{
+        height:120px !important;
+        width:100%;
+        background: var(--color-white);
+        border-bottom:.0625rem solid var(--color-beige);
+    }
+    
+    .nav__logo{
+        font-size: 4rem !important;
+    }
+    .nav__desktop{
+        display: flex;
+        width:100%;
+    }
+
+    .nav__desktop__wrapper{
+        display: flex;
+        width:78.125rem;
+        justify-content: space-between;
+        align-items:center;
+        margin:auto;
+    }
+
+    .nav__links__wrapper{
+        display:flex;
+        width:18.25rem;
+        justify-content: space-between;
+
+
+    }
+
+
+    .nav__socmed__wrapper{
+        display:flex;
+        width:18.25rem;
+        justify-content: flex-end;
+        gap:.5rem;
+    }
+
+    .nav__socmed__wrapper img{
+       width:2.1875rem;
+    }
+
+    .nav__mobile{
+        display:none;
+    }
+    
+    .intro__img{
+        width:39.375rem !important;
+    }
+
+    .container{
+        display:flex;
+        position: relative;
+        width:100%;
+        padding:0!important;
+    }
+    .section__intro{
+        height:100vh;
+    
+    }
+   
+    .section__intro::before{
+        width:40.625rem!important;
+        max-width:40.625rem !important;
+    }
+    .section__intro h1{
+        position: relative;
+        top:13.375rem;
+
+    }
+
+    .box__about__one__second{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .box__about__two{
+        width:32.0625rem;
+        padding-top:0;
+        margin-left:8.6875rem;
+        flex-direction: row;
+    }
+
+    .services__right{
+        margin-left:1.1875rem;
+
+    }
+    .footer .container__footer{
+        justify-content: flex-end ;
+        text-align:right ;
+    
+    }
+}
