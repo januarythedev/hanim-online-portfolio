@@ -1,6 +1,6 @@
 @media screen and (min-width:78.125rem){
     nav{
-        height:120px !important;
+        height:5.9375rem !important;
         width:100%;
         background: var(--color-white);
         border-bottom:.0625rem solid var(--color-beige);
@@ -29,8 +29,15 @@
 
 
     }
-
-
+    .section__intro{
+        background: var(--color-white);
+        position:relative;
+        margin-top:5.9375rem;
+    
+    }
+    .box__about__two{
+        align-items:flex-end;
+    }
     .nav__socmed__wrapper{
         display:flex;
         width:18.25rem;
@@ -40,7 +47,9 @@
 
     .nav__socmed__wrapper img{
        width:2.1875rem;
+       transition: all 0.5s ease;
     }
+
 
     .nav__mobile{
         display:none;
@@ -52,9 +61,9 @@
 
     .container{
         display:flex;
-        position: relative;
         width:100%;
         padding:0!important;
+        align-items:center;
     }
     .section__intro{
         height:100vh;
@@ -67,8 +76,13 @@
     }
     .section__intro h1{
         position: relative;
-        top:13.375rem;
+        top: -6.25rem;
+        left: 5.125rem;
 
+    }
+    .section__intro .thirdbox{
+        position:relative;
+        right: 5.125rem;
     }
 
     .box__about__one__second{
@@ -85,7 +99,13 @@
 
     .services__right{
         margin-left:1.1875rem;
+        position:relative;
+        top:-6.25rem;
 
+    }
+    .reviews__wrapper{
+        gap:3.9375rem;
+        flex-direction:row;
     }
     .footer .container__footer{
         justify-content: flex-end ;
@@ -93,3 +113,4 @@
     
     }
 }
+
